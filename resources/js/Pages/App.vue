@@ -7,6 +7,8 @@ import Prices from "@/Pages/Prices/Prices.vue";
 import Actions from "@/Pages/Actions/Actions.vue";
 import Video from "@/Pages/Video/Video.vue";
 import Reviews from "@/Pages/Reviews/Reviews.vue";
+import Consultation from "@/Pages/Consultation/Consultation.vue";
+import Questions from "@/Pages/Questions/Questions.vue";
 
 const state = defineProps({
 	products:{
@@ -29,6 +31,8 @@ const state = defineProps({
 		<Actions/>
 		<Video/>
 		<Reviews :reviews="state.reviews"/>
+		<Consultation/>
+		<Questions/>
 	</MasterLayout>
 </template>
 

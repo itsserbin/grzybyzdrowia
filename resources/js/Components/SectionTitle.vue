@@ -14,6 +14,6 @@ defineProps({
 <template>
 	<div class="text-center mb-[20px]">
 			<h2 class="max-md:text-[2.6em] lg:text-[3.6em] font-semibold">{{ main_title }}</h2>
-			<p class="text-lg">{{ second_title }}</p>
+			<p class="text-lg" v-html="second_title"></p>
 	</div>
 </template>

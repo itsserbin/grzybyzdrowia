@@ -7,7 +7,6 @@ const state = defineProps({
 		default:[],
 	}
 })
-console.log(state.reviews);
 </script>
 
 <template>
