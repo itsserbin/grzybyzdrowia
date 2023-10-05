@@ -11,5 +11,9 @@
 
 body{
     font-family: Verdana;
-    background: lightgray;
+    background: linear-gradient(to bottom, lightgray 76%, #FFFFFF 50%);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }

@@ -2,15 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\ProductRepository;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 class HomeController extends Controller
 {
-    final public function index()
+    protected ProductRepository $productRepository;
+    final public function __construct(ProductRepository $productRepository)
     {
-        $test = 1;
+        $this->productRepository = $productRepository;
+    }
+    final public function index(): \Inertia\Response
+    {
         return Inertia::render('Pages/App',[
-            'test'=>$test,
+            'products'=>$this->productRepository->getAll(),
         ]);
     }
 }

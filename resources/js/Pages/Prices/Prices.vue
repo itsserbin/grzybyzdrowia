@@ -1,0 +1,34 @@
+<script setup>
+import SectionTitle from "@/Components/SectionTitle.vue";
+import PriceTable from "@/Pages/Prices/PriceTable.vue";
+
+const props = defineProps({
+	products:{
+		type:Array,
+		default:[],
+	},
+})
+
+const chunk = (arr, size) =>
+		Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+				arr.slice(i * size, i * size + size)
+		);
+
+const groupedProducts = chunk(props.products, 5);
+</script>
+
+<template>
+	<section>
+		<SectionTitle
+				main_title="Цены"
+				second_title="На фасованные грибы"
+		/>
+
+		<PriceTable
+				v-for="(productsGroup, index) in groupedProducts"
+				:key="index"
+				:products="productsGroup"
+				:showHeader="index === 0"
+		/>
+	</section>
+</template>
