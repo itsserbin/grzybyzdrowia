@@ -10,6 +10,7 @@ import Reviews from "@/Pages/Reviews/Reviews.vue";
 import Consultation from "@/Pages/Consultation/Consultation.vue";
 import Questions from "@/Pages/Questions/Questions.vue";
 import Start from "@/Pages/Start/Start.vue";
+import Waiting from "@/Pages/Waiting/Waiting.vue";
 
 const state = defineProps({
 	products:{
@@ -35,6 +36,7 @@ const state = defineProps({
 		<Consultation/>
 		<Questions/>
 		<Start/>
+		<Waiting/>
 	</MasterLayout>
 </template>
 
