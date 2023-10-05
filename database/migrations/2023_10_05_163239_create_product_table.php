@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('product', function (Blueprint $table) {
+        Schema::create('products', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->text('name');
             $table->text('img');
             $table->integer('weight');
+            $table->integer('price');
             $table->timestamps();
         });
     }
