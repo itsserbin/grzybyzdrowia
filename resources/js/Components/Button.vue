@@ -1,0 +1,34 @@
+<script setup>
+defineProps({
+	type: {
+		type: String,
+		default: 'submit',
+	},
+	active: {
+		type: Boolean,
+		default: false,
+	}
+});
+</script>
+<template>
+	<button :type="type"
+					class="
+            rounded-[0.438rem]
+            text-lg
+            text-[#FFFFFF]
+            px-[1.1em]
+            py-[0.6em]
+            border-transparent
+            transition-all
+            duration-200
+            ease-in-out
+            border-[1px]
+            hover:bg-[#a92c0d]
+        "
+					:class="{
+            'bg-[#D72B00]' : !active
+        }"
+	>
+		<slot/>
+	</button>
+</template>
