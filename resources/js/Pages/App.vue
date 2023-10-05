@@ -4,12 +4,19 @@ import Healthy from "@/Pages/Healthy/Healthy.vue";
 import Products from "@/Pages/Products/Products.vue";
 import FreeConsultation from "@/Pages/FreeConsultation/FreeConsultation.vue";
 import Prices from "@/Pages/Prices/Prices.vue";
+import Actions from "@/Pages/Actions/Actions.vue";
+import Video from "@/Pages/Video/Video.vue";
+import Reviews from "@/Pages/Reviews/Reviews.vue";
 
 const state = defineProps({
 	products:{
 		type:Array,
 		default:[],
 	},
+	reviews:{
+		type:Array,
+		default:[],
+	}
 })
 </script>
 
@@ -19,6 +26,9 @@ const state = defineProps({
 		<Products :products="state.products"/>
 		<FreeConsultation/>
 		<Prices :products="state.products"/>
+		<Actions/>
+		<Video/>
+		<Reviews :reviews="state.reviews"/>
 	</MasterLayout>
 </template>
 
