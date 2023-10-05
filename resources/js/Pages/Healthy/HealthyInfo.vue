@@ -12,7 +12,7 @@ import ButtonOutline from "@/Components/ButtonOutline.vue";
 		</p>
 		<div class="flex gap-4 max-md:flex-col">
 			<Button>Заказать обратный звонок</Button>
-			<ButtonOutline>Видео</ButtonOutline>
+			<ButtonOutline @click="openModal">Видео</ButtonOutline>
 		</div>
 	</div>
 </template>

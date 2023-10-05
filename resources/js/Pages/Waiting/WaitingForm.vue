@@ -1,6 +1,7 @@
 <script setup>
 import Input from "@/Components/Input.vue";
 import Button from "@/Components/Button.vue";
+import Textarea from "@/Components/Textarea.vue";
 
 </script>
 
@@ -19,6 +20,11 @@ import Button from "@/Components/Button.vue";
 		<!-- Телефон -->
 		<div class="mb-4">
 			<Input class="w-full" v-mask="'+48(###) ###-###'" placeholder="Телефон" />
+		</div>
+
+		<!-- Сообщение -->
+		<div class="mb-4">
+			<Textarea></Textarea>
 		</div>
 
 		<!-- Политика конфиденциальности -->
