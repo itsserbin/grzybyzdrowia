@@ -9,6 +9,7 @@ import Video from "@/Pages/Video/Video.vue";
 import Reviews from "@/Pages/Reviews/Reviews.vue";
 import Consultation from "@/Pages/Consultation/Consultation.vue";
 import Questions from "@/Pages/Questions/Questions.vue";
+import Start from "@/Pages/Start/Start.vue";
 
 const state = defineProps({
 	products:{
@@ -33,6 +34,7 @@ const state = defineProps({
 		<Reviews :reviews="state.reviews"/>
 		<Consultation/>
 		<Questions/>
+		<Start/>
 	</MasterLayout>
 </template>
 

@@ -1,6 +1,7 @@
 <script setup>
 import QuestionAccordion from "@/Pages/Questions/QuestionAccordion.vue";
 import SectionTitle from "@/Components/SectionTitle.vue";
+import HaveQuestion from "@/Pages/Questions/HaveQuestion.vue";
 
 const data = [
 	{
@@ -19,11 +20,11 @@ const data = [
 	{
 		title:'Как можно оформить заказ через телеграм?',
 		content:'\n' +
-				'✨ email - @myxomor_4iiik<br/>' +
+				'✨ email - <a href="mailto:@myxomor_4iiik" class="text-blue-700">@myxomor_4iiik</a><br/>' +
 				'✨ viber/whatsapp - +48600791167<br/>' +
-				'✨ наш канал - https://t.me/grzyby_zdrowia_channel<br/>' +
-				'✨ чат - <a href="https://t.me/grzybyzdrowia">https://t.me/grzybyzdrowia</a><br/>' +
-				'✨ отзывы - https://t.me/opinii_grzybyzdrowi.'
+				'✨ наш канал - <a href="https://t.me/grzyby_zdrowia_channel" class="text-blue-700">https://t.me/grzyby_zdrowia_channel</a><br/>' +
+				'✨ чат - <a href="https://t.me/grzybyzdrowia" class="text-blue-700">https://t.me/grzybyzdrowia</a><br/>' +
+				'✨ отзывы - <a href="https://t.me/opinii_grzybyzdrowi" class="text-blue-700">https://t.me/opinii_grzybyzdrowi</a>.'
 	},
 ];
 </script>
@@ -35,6 +36,7 @@ const data = [
 				second_title="Ответы на часто задаваемые вопросы."
 		/>
 		<QuestionAccordion v-for="item in data" :title="item.title" :content="item.content"/>
+		<HaveQuestion/>
 	</section>
 </template>
 

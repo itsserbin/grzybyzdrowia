@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import { TweenLite } from 'gsap';
 
 const props = defineProps({
 	title: String,
@@ -7,9 +8,21 @@ const props = defineProps({
 });
 
 const isOpen = ref(false);
+const bodyRef = ref(null);
 
 const toggleAccordion = () => {
-	isOpen.value = !isOpen.value;
+	const el = bodyRef.value;
+	if (!isOpen.value) {
+		isOpen.value = true;
+		TweenLite.to(el, 0.5, {
+			height: el.scrollHeight
+		});
+	} else {
+		isOpen.value = false;
+		TweenLite.to(el, 0.5, {
+			height: 0
+		});
+	}
 };
 </script>
 
@@ -21,9 +34,21 @@ const toggleAccordion = () => {
 			<span v-else>+</span>
 		</button>
 
-		<div v-if="isOpen" class="border-l text-lg border-r border-gray-300 p-4 overflow-hidden transition-max-height duration-500 ease-in-out"
-				 :class="{ 'border-b': isOpen, 'rounded-b-lg': isOpen }" v-html="content">
+		<div ref="bodyRef"
+				 class="border-l border-r text-lg border-gray-300 overflow-hidden"
+				 :class="{
+			'border-b': isOpen,
+			'rounded-b-lg': isOpen,
+			'body-closed': !isOpen
+		}" >
+			<div class="p-4" v-html="content"></div>
 		</div>
 	</div>
 </template>
 
+<style scoped>
+
+.body-closed {
+	height: 0;
+}
+</style>
