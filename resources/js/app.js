@@ -5,7 +5,7 @@ import '../css/app.css';
 import VueTheMask from 'vue-the-mask'
 
 createInertiaApp({
-    resolve: (name) => resolvePageComponent(`./${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
+    resolve: (name) => resolvePageComponent(`./${name}.vue`, import.meta.glob('./App/**/*.vue')),
     setup({ el, App, props, plugin }) {
         createApp({ render: () => h(App, props) })
             .use(plugin)

@@ -20,7 +20,7 @@ class HomeController extends Controller
     }
     final public function index(): \Inertia\Response
     {
-        return Inertia::render('Pages/App',[
+        return Inertia::render('App/App',[
             'products' => $this->productRepository->getAll(),
             'reviews' => $this->reviewsRepository->getAll()
         ]);

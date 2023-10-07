@@ -1,6 +1,6 @@
 <script setup>
 import SectionTitle from "@/Components/SectionTitle.vue";
-import PriceTable from "@/Pages/Prices/PriceTable.vue";
+import PriceTable from "@/App/Prices/PriceTable.vue";
 
 const props = defineProps({
 	products:{

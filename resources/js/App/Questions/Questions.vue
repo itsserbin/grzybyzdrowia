@@ -1,7 +1,7 @@
 <script setup>
-import QuestionAccordion from "@/Pages/Questions/QuestionAccordion.vue";
+import QuestionAccordion from "@/App/Questions/QuestionAccordion.vue";
 import SectionTitle from "@/Components/SectionTitle.vue";
-import HaveQuestion from "@/Pages/Questions/HaveQuestion.vue";
+import HaveQuestion from "@/App/Questions/HaveQuestion.vue";
 
 const data = [
 	{

@@ -1,6 +1,6 @@
 <script setup>
-import HealthyInfo from "@/Pages/Healthy/HealthyInfo.vue";
-import HealthyBanner from "@/Pages/Healthy/HealthyBanner.vue";
+import HealthyInfo from "@/App/Healthy/HealthyInfo.vue";
+import HealthyBanner from "@/App/Healthy/HealthyBanner.vue";
 </script>
 
 <template>

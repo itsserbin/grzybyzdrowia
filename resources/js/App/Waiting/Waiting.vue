@@ -1,6 +1,6 @@
 <script setup>
-import WaitingForm from "@/Pages/Waiting/WaitingForm.vue";
-import Contacts from "@/Pages/Waiting/Contacts.vue";
+import WaitingForm from "@/App/Waiting/WaitingForm.vue";
+import Contacts from "@/App/Waiting/Contacts.vue";
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import SectionTitle from "@/Components/SectionTitle.vue";
-import ProductCard from "@/Pages/Products/ProductCard.vue";
+import ProductCard from "@/App/Products/ProductCard.vue";
 
 const state = defineProps({
 	products: {

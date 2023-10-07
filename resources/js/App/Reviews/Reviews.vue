@@ -1,6 +1,6 @@
 <script setup>
 import SectionTitle from "@/Components/SectionTitle.vue";
-import ReviewsCard from "@/Pages/Reviews/ReviewsCard.vue";
+import ReviewsCard from "@/App/Reviews/ReviewsCard.vue";
 const state = defineProps({
 	reviews:{
 		type:Array,
