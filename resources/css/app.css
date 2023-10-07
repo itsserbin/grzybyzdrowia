@@ -17,3 +17,18 @@ body{
 tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Анимация для модального окна */
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s;
+}
+.fade-enter-from, .fade-leave-to /* .fade-leave-active in <2.6 */ {
+    opacity: 0;
+}
+.fade-enter-to, .fade-leave-from /* .fade-enter-active in <2.6 */ {
+    opacity: 1;
+}

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 class HomeController extends Controller
 {
+
     protected ProductRepository $productRepository;
     protected ReviewsRepository $reviewsRepository;
     final public function __construct
@@ -20,7 +21,7 @@ class HomeController extends Controller
     }
     final public function index(): \Inertia\Response
     {
-        return Inertia::render('App/App',[
+        return Inertia::render('App/Application',[
             'products' => $this->productRepository->getAll(),
             'reviews' => $this->reviewsRepository->getAll()
         ]);

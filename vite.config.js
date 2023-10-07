@@ -6,7 +6,7 @@ import tailwindcss from 'tailwindcss';
 export default defineConfig({
     plugins: [
         laravel({
-            input: 'resources/js/app.js',
+            input: 'resources/js/application.js',
             refresh: true,
         }),
         vue({

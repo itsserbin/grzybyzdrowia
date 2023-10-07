@@ -1,4 +1,4 @@
 <template>
-	<img src="/storage/logo.png"  alt="Logo" class="object-contain lg:h-[5.625rem]">
+	<img src="https://grzybyzdrowia.com/img/лого-грибы.png"  alt="Logo" class="object-contain lg:h-[5.625rem]">
 </template>
 

@@ -1,6 +1,19 @@
 <script setup>
 import Button from "@/Components/Button.vue";
 import ButtonOutline from "@/Components/ButtonOutline.vue";
+import Modal from "@/Components/Modal.vue";
+import { ref } from "vue";
+import Video from "@/App/Video/Video.vue";
+
+const isModalOpen = ref(false);
+
+function showModal() {
+    isModalOpen.value = true;
+}
+
+function hideModal() {
+    isModalOpen.value = false;
+}
 </script>
 
 <template>
@@ -12,7 +25,10 @@ import ButtonOutline from "@/Components/ButtonOutline.vue";
 		</p>
 		<div class="flex gap-4 max-md:flex-col">
 			<Button>Заказать обратный звонок</Button>
-			<ButtonOutline @click="openModal">Видео</ButtonOutline>
+			<ButtonOutline @click="showModal">Видео</ButtonOutline>
 		</div>
 	</div>
+    <Modal :modelValue="isModalOpen" @update:modelValue="hideModal">
+        <Video/>
+    </Modal>
 </template>
