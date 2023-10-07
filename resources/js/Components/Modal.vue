@@ -45,8 +45,9 @@ onBeforeUnmount(() => {
 
 <template>
     <transition name="fade">
-        <div v-if="modelValue" class="z-[100] fixed inset-0 flex justify-center items-center bg-black bg-opacity-50" @click="handleOutsideClick">
-            <div class="bg-white p-5 rounded-lg shadow-lg" ref="modalContent">
+        <div v-if="modelValue" class="p-10 z-[100] fixed inset-0 flex justify-center items-center bg-black bg-opacity-50" @click="handleOutsideClick">
+            <div class="bg-white relative p-5 rounded-lg shadow-lg" ref="modalContent">
+                <div class="absolute cursor-pointer right-[20px]  text-lg" @click="closeModal">X</div>
                 <slot></slot>
                 <button @click="closeModal" class="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Закрыть</button>
             </div>

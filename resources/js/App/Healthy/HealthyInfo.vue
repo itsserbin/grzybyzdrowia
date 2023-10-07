@@ -28,7 +28,10 @@ function hideModal() {
 			<ButtonOutline @click="showModal">Видео</ButtonOutline>
 		</div>
 	</div>
+
+    <!--Video Modal-->
     <Modal :modelValue="isModalOpen" @update:modelValue="hideModal">
         <Video/>
     </Modal>
+    <!--END Video Modal--->
 </template>

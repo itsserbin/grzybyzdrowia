@@ -7,11 +7,16 @@ defineProps({
 	active: {
 		type: Boolean,
 		default: false,
-	}
+	},
+    disabled:{
+        type:Boolean,
+        default:false,
+    }
 });
 </script>
 <template>
 	<button :type="type"
+            :disabled="disabled"
 					class="
             rounded-[0.438rem]
             text-lg
