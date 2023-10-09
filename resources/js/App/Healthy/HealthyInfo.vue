@@ -4,6 +4,7 @@ import ButtonOutline from "@/Components/ButtonOutline.vue";
 import Modal from "@/Components/Modal.vue";
 import { ref } from "vue";
 import Video from "@/App/Video/Video.vue";
+import ModalCallback from "@/Components/ModalCallback.vue";
 
 const isModalOpen = ref(false);
 
@@ -24,7 +25,7 @@ function hideModal() {
 			Шиитаке, Рейши и другие грибы для здоровья. Доставка по всему миру.
 		</p>
 		<div class="flex gap-4 max-md:flex-col">
-			<Button>Заказать обратный звонок</Button>
+			<ModalCallback title="Заказать обратный звонок"/>
 			<ButtonOutline @click="showModal">Видео</ButtonOutline>
 		</div>
 	</div>

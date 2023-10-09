@@ -18,7 +18,7 @@ const groupedProducts = chunk(props.products, 5);
 </script>
 
 <template>
-	<section>
+	<section id="price">
 		<SectionTitle
 				main_title="Цены"
 				second_title="На фасованные грибы"

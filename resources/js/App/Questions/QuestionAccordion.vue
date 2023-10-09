@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import { TweenLite } from 'gsap';
 
 const props = defineProps({
@@ -24,6 +24,10 @@ const toggleAccordion = () => {
 		});
 	}
 };
+
+onMounted(() => {
+	TweenLite.set(bodyRef.value, { height: 0 });
+});
 </script>
 
 <template>

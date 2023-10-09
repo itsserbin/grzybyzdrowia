@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id()->autoIncrement();
             $table->text('name');
             $table->text('img');
+            $table->boolean('availability');
             $table->integer('weight');
             $table->integer('price');
             $table->timestamps();

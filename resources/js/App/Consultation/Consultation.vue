@@ -1,6 +1,7 @@
 <script setup>
 import SectionTitle from "@/Components/SectionTitle.vue";
 import Button from "@/Components/Button.vue";
+import ModalCallback from "@/Components/ModalCallback.vue";
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import Button from "@/Components/Button.vue";
 				main_title="Запишитесь на консультацию"
 				second_title="Ещё больше отзывов в <a class='text-blue-700' href='https://t.me/opinii_grzybyzdrowia'>телеграм</a>."
 		/>
-		<Button class="w-[50%] mt-[1.25em]">Закажите обратный звонок</Button>
+		<ModalCallback title="Закажите обратный звонок"/>
 	</section>
 </template>
 

@@ -1,6 +1,7 @@
 <script setup>
 import SectionTitle from "@/Components/SectionTitle.vue";
 import Button from "@/Components/Button.vue";
+import ModalCallback from "@/Components/ModalCallback.vue";
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import Button from "@/Components/Button.vue";
 						main_title="Остались вопросы?"
 						second_title="Задайте их нашему консультанту он вам перезвонит через 15 минут."
 				/>
-				<Button class="w-[50%] mt-[1.25em]">Заказать звонок от консультанта</Button>
+				<ModalCallback title="Заказать звонок от консультанта"/>
 			</div>
 		</div>
 </template>

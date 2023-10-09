@@ -4,7 +4,7 @@ import HealthyBanner from "@/App/Healthy/HealthyBanner.vue";
 </script>
 
 <template>
-	<section class="flex flex-col md:flex-row items-center md:items-start">
+	<section id="healthy" class="flex flex-col md:flex-row items-center md:items-start">
 		<HealthyInfo class="md:w-1/2"/>
 		<HealthyBanner class="md:w-1/2"/>
 	</section>

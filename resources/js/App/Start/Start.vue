@@ -23,7 +23,7 @@ const data = [
 </script>
 
 <template>
-	<section class="mt-[100px] flex flex-col items-center">
+	<section id="start" class="mt-[100px] flex flex-col items-center">
 		<SectionTitle
 				main_title="С чего начать?"
 				second_title="Три простых шага чтобы заказать грибы"

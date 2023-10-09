@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Verdana, serif;
     background: linear-gradient(to bottom, lightgray 20%, #FFFFFF 50%);
@@ -20,6 +24,19 @@ tbody tr:nth-child(even) {
 
 .no-scroll {
     overflow: hidden;
+}
+
+main{
+    min-height: 1440px;
+}
+
+section:before {
+    content: "";
+    display: block;
+    height: 100px; /* Adjust as necessary */
+    margin-top: -5px; /* Should be the same as height */
+
+    visibility: hidden;
 }
 
 /* Анимация для модального окна */

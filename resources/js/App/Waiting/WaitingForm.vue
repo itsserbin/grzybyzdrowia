@@ -1,14 +1,35 @@
 <script setup>
-import {ref} from "vue";
+import {reactive, ref} from "vue";
 import Input from "@/Components/Input.vue";
 import Button from "@/Components/Button.vue";
 import Textarea from "@/Components/Textarea.vue";
+import { Inertia } from '@inertiajs/inertia'
+
+defineProps({
+	showLine:{
+		type:Boolean,
+		default:true
+	}
+})
 
 const isChecked = ref(false);
+
+const data = ref({
+	name: '',
+	phone: '',
+	message: '',
+});
+const submitForm = () => {
+	if (isChecked.value) {
+		Inertia.post('/api/send', data.value);
+	}
+};
 </script>
 
 <template>
-	<form class="w-full max-w-xl lg:border-r-[1px] p-3">
+	<form @submit.prevent="submitForm" class="w-full max-w-xl  p-3"
+				:class="showLine ? 'lg:border-r-[1px]' : '' "
+	>
 		<div class="mb-[25px]">
 			<h2 class="max-md:text-[1.6em] lg:text-[1.6em] font-semibold">Оставьте заявку на обратный звонок</h2>
 			<p class="text-lg">Консультант перезвонит вам через 15 минут</p>
@@ -16,17 +37,17 @@ const isChecked = ref(false);
 
 		<!-- Имя -->
 		<div class="mb-4">
-			<Input class="w-full" placeholder="Ваше имя" />
+			<Input v-model="data.name" class="w-full" placeholder="Ваше имя" />
 		</div>
 
 		<!-- Телефон -->
 		<div class="mb-4">
-			<Input class="w-full" v-mask="'+48(###) ###-###'" placeholder="Телефон" />
+			<Input v-model="data.phone" class="w-full" v-mask="'+48(###) ###-###'" placeholder="Телефон" />
 		</div>
 
 		<!-- Сообщение -->
 		<div class="mb-4">
-			<Textarea></Textarea>
+			<Textarea v-model="data.message"></Textarea>
 		</div>
 
 		<!-- Политика конфиденциальности -->

@@ -3,7 +3,7 @@ import SectionTitle from "@/Components/SectionTitle.vue";
 </script>
 
 <template>
-	<section class="mb-[100px]">
+	<section id="video" class="mb-[100px]">
 		<SectionTitle
 				main_title="Видео"
 				second_title="Волшебные грибы - мухомор пантерный и мухомор серо-розовый"

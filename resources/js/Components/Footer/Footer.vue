@@ -3,19 +3,19 @@
 const data = [
 	{
 		name:"Пользовательское Соглашение",
-		route:"/accept"
+		route:"/static/accept"
 	},
 	{
 		name:"Публичная Оферта",
-		route:"/oferta"
+		route:"/static/oferta"
 	},
 	{
 		name:"Политика Конфиденциальности",
-		route:"/politika-konfidencialnosti"
+		route:"/static/politika-konfidencialnosti"
 	},
 	{
 		name:"Реквизиты",
-		route:"/rekvizity"
+		route:"/static/rekvizity"
 	}
 ]
 

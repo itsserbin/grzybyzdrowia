@@ -30,7 +30,7 @@ const data = [
 </script>
 
 <template>
-	<section>
+	<section id="questions">
 		<SectionTitle
 				main_title="Вопросы-ответы"
 				second_title="Ответы на часто задаваемые вопросы."

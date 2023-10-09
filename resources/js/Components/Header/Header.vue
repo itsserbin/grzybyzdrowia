@@ -8,27 +8,27 @@ import {ref} from "vue";
 const navItems = [
 	{
 		title:'Предлагаем',
-		link:"#",
+		link:"#healthy",
 	},
 	{
 		title:'Цена',
-		link:"#",
+		link:"#price",
 	},
 	{
 		title:'Видео',
-		link:"#",
+		link:"#video",
 	},
 	{
 		title:'Отзывы',
-		link:"#",
+		link:"#reviews",
 	},
 	{
 		title:'Вопросы',
-		link:"#",
+		link:"#questions",
 	},
 	{
 		title:'С чего начать?',
-		link:"#",
+		link:"#start",
 	}
 ]
 

@@ -49,7 +49,6 @@ onBeforeUnmount(() => {
             <div class="bg-white relative p-5 rounded-lg shadow-lg" ref="modalContent">
                 <div class="absolute cursor-pointer right-[20px]  text-lg" @click="closeModal">X</div>
                 <slot></slot>
-                <button @click="closeModal" class="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Закрыть</button>
             </div>
         </div>
     </transition>

@@ -10,7 +10,7 @@ const state = defineProps({
 </script>
 
 <template>
-	<section>
+	<section id="reviews">
 		<SectionTitle
 				main_title="Отзывы"
 				second_title="Наших постоянных клиентов"

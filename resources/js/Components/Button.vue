@@ -29,6 +29,7 @@ defineProps({
             ease-in-out
             border-[1px]
             hover:bg-[#a92c0d]
+						disabled:bg-gray-400
         "
 					:class="{
             'bg-[#D72B00]' : !active
