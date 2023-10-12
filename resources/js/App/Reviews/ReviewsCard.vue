@@ -12,7 +12,7 @@ const state = defineProps({
 		<div class="flex gap-4 items-center max-md:items-start">
 			<div>
 				<img
-						 :src="state.review.img"
+						 :src="'/storage/' + state.review.img"
 						 :alt="state.review.name"
 						 class="rounded-[50%] w-full h-full"
 				>
