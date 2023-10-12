@@ -6,7 +6,7 @@
 	<div>
 		<h2 class="text-2xl font-semibold">Позвоните нам:</h2>
 		<div class="flex items-center">
-		<img width="103" height="103" src="https://grzybyzdrowia.com/img/48-icon-telefon.png" alt="">
+		<img width="103" height="103" src="/storage/48-icon-telefon.png" alt="">
 		<a class="text-lg" href="tel:+48504909765">
 			+48 504-909-765
 			<p>viber/whatsapp</p>

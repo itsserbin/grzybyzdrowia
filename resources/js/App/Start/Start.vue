@@ -4,17 +4,17 @@ import StartElement from "@/Components/StartElement.vue";
 
 const data = [
 	{
-		img:'https://grzybyzdrowia.com/img/45-fitnes.png',
+		img:'/storage/45-fitnes.png',
 		mainTitle:'Закажите обратный звонок',
 		secondTitle:'Наш консультант перезвонит вам в течение 15 минут и ответит на все ваши вопросы.',
 	},
 	{
-		img:'https://grzybyzdrowia.com/img/46-fitnes.png',
+		img:'/storage/46-fitnes.png',
 		mainTitle:'Выберите удобное время',
 		secondTitle:'Сообщите консультанту когда вам удобно пройти консультацию со специалистом.',
 	},
 	{
-		img:'https://grzybyzdrowia.com/img/47-fitnes.png',
+		img:'/storage/47-fitnes.png',
 		mainTitle:'Проведите консультацию',
 		secondTitle:'Выявим какие грибы вам нужны для улучшения вашего здоровья.',
 	}
