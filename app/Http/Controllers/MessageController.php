@@ -11,7 +11,7 @@ class MessageController extends Controller
     {
         $data = $request->all();
         Mail::send('emails.callback', ['data' => $data], function($message) {
-            $message->to('ser1372@ukr.net', 'Recipient Name')
+            $message->to('myxomor4iiik@gmail.com', 'Recipient Name')
                 ->subject('Обратный звонок');
         });
 
