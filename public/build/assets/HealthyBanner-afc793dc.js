@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as n,b as r}from"./application-c23c07c5.js";const t={},o={src:"/storage/banner.png",alt:"banner",class:"mb-[50px]"};function a(c,s){return n(),r("img",o)}const f=e(t,[["render",a]]);export{f as default};

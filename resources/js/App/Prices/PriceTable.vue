@@ -21,7 +21,7 @@ const props = defineProps({
 		</thead>
 		<tbody>
 		<tr v-for="product in props.products" :key="product.id"  class="hover:bg-gray-100">
-			<td class="border-none w-[90%] px-4 py-2">{{ product.name }}</td>
+			<td class="border-none w-[90%] px-4 py-2">{{ product.name + product.weight + 'г' }}</td>
 			<td class="border-none w-[90%] px-4 py-2">{{ product.price }}</td>
 		</tr>
 		<tr v-for="n in (5 - products.length)" :key="'empty' + n" class="hover:bg-gray-100">

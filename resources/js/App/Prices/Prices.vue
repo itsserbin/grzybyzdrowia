@@ -14,7 +14,8 @@ const chunk = (arr, size) =>
 				arr.slice(i * size, i * size + size)
 		);
 
-const groupedProducts = chunk(props.products, 5);
+const filteredProducts = props.products.filter(product => product.availability);
+const groupedProducts = chunk(filteredProducts, 5);
 </script>
 
 <template>
