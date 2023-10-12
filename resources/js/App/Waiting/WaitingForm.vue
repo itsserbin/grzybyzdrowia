@@ -71,7 +71,7 @@ const submitForm = () => {
 		<div class="flex items-center mb-6">
 			<input id="policy" type="checkbox" class="mr-2 leading-tight" v-model="isChecked">
 			<label for="policy" class="text-gray-500 text-sm flex-1">
-				Я принимаю условия <a href="#" class="text-blue-500 underline hover:text-blue-600">Политики конфиденциальности</a> и даю согласие на обработку персональных данных.
+				Я принимаю условия <a href="/static/politika-konfidencialnosti" class="text-blue-500 underline hover:text-blue-600">Политики конфиденциальности</a> и даю согласие на обработку персональных данных.
 			</label>
 		</div>
 

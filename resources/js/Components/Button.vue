@@ -23,6 +23,7 @@ defineProps({
             text-[#FFFFFF]
             px-[1.1em]
             py-[0.6em]
+						max-md:p-[0.4em]
             border-transparent
             transition-all
             duration-200

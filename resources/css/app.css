@@ -24,6 +24,10 @@ tbody tr:nth-child(even) {
 
 .no-scroll {
     overflow: hidden;
+    width: 100%;
+    touch-action: none;
+    -ms-touch-action: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 main{

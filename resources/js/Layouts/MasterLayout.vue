@@ -5,7 +5,7 @@ import Footer from "@/Components/Footer/Footer.vue";
 
 <template>
 	<Header/>
-	<main id="main" class="max-w-7xl mx-auto pt-[9rem] max-md:px-2 max-md:pt-[6.25rem] px-3 h-full">
+	<main id="main" class="max-w-7xl mx-auto pt-[9rem] max-md:px-2 max-md:pt-[0.25rem] px-3 h-full">
 		<slot></slot>
 	</main>
 	<Footer />

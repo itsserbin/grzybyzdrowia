@@ -3,33 +3,33 @@
     "file": "assets/MasterLayout-1db457dc.css",
     "src": "MasterLayout.css"
   },
-  "_Button-f66b9266.js": {
-    "file": "assets/Button-f66b9266.js",
+  "_Button-f5d41207.js": {
+    "file": "assets/Button-f5d41207.js",
     "imports": [
       "resources/js/application.js"
     ]
   },
-  "_MasterLayout-89c17301.js": {
+  "_MasterLayout-04eebfd7.js": {
     "css": [
       "assets/MasterLayout-1db457dc.css"
     ],
-    "file": "assets/MasterLayout-89c17301.js",
+    "file": "assets/MasterLayout-04eebfd7.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/application.js",
-      "_Button-f66b9266.js"
+      "_Button-f5d41207.js"
     ]
   },
-  "_ModalCallback-e0cde050.js": {
-    "file": "assets/ModalCallback-e0cde050.js",
+  "_ModalCallback-a4a7b7f0.js": {
+    "file": "assets/ModalCallback-a4a7b7f0.js",
     "imports": [
       "resources/js/application.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue"
     ]
   },
-  "_SectionTitle-64c506b7.js": {
-    "file": "assets/SectionTitle-64c506b7.js",
+  "_SectionTitle-a42f8afb.js": {
+    "file": "assets/SectionTitle-a42f8afb.js",
     "imports": [
       "resources/js/application.js"
     ]
@@ -38,21 +38,21 @@
     "file": "assets/_plugin-vue_export-helper-c27b6911.js"
   },
   "resources/js/App/Actions/Actions.vue": {
-    "file": "assets/Actions-87e7c14b.js",
+    "file": "assets/Actions-60cc0aa7.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
-      "_ModalCallback-e0cde050.js",
+      "_SectionTitle-a42f8afb.js",
+      "_ModalCallback-a4a7b7f0.js",
       "resources/js/application.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Actions/Actions.vue"
   },
   "resources/js/App/Application.vue": {
-    "file": "assets/Application-139c89b8.js",
+    "file": "assets/Application-806c4699.js",
     "imports": [
-      "_MasterLayout-89c17301.js",
+      "_MasterLayout-04eebfd7.js",
       "resources/js/App/Healthy/Healthy.vue",
       "resources/js/App/Products/Products.vue",
       "resources/js/App/FreeConsultation/FreeConsultation.vue",
@@ -66,12 +66,12 @@
       "resources/js/App/Waiting/Waiting.vue",
       "resources/js/application.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Healthy/HealthyInfo.vue",
-      "_ModalCallback-e0cde050.js",
+      "_ModalCallback-a4a7b7f0.js",
       "resources/js/App/Waiting/WaitingForm.vue",
       "resources/js/App/Healthy/HealthyBanner.vue",
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/App/Products/ProductCard.vue",
       "resources/js/App/Prices/PriceTable.vue",
       "resources/js/App/Reviews/ReviewsCard.vue",
@@ -83,47 +83,47 @@
     "src": "resources/js/App/Application.vue"
   },
   "resources/js/App/Consultation/Consultation.vue": {
-    "file": "assets/Consultation-c4587de1.js",
+    "file": "assets/Consultation-69b65bac.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
-      "_ModalCallback-e0cde050.js",
+      "_SectionTitle-a42f8afb.js",
+      "_ModalCallback-a4a7b7f0.js",
       "resources/js/application.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Consultation/Consultation.vue"
   },
   "resources/js/App/FreeConsultation/FreeConsultation.vue": {
-    "file": "assets/FreeConsultation-c4c57f7b.js",
+    "file": "assets/FreeConsultation-1507d05d.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
-      "_ModalCallback-e0cde050.js",
+      "_SectionTitle-a42f8afb.js",
+      "_ModalCallback-a4a7b7f0.js",
       "resources/js/application.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/FreeConsultation/FreeConsultation.vue"
   },
   "resources/js/App/Healthy/Healthy.vue": {
-    "file": "assets/Healthy-ede7c163.js",
+    "file": "assets/Healthy-08f6f905.js",
     "imports": [
       "resources/js/App/Healthy/HealthyInfo.vue",
       "resources/js/App/Healthy/HealthyBanner.vue",
       "resources/js/application.js",
-      "_ModalCallback-e0cde050.js",
-      "_Button-f66b9266.js",
+      "_ModalCallback-a4a7b7f0.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue",
       "resources/js/App/Video/Video.vue",
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Healthy/Healthy.vue"
   },
   "resources/js/App/Healthy/HealthyBanner.vue": {
-    "file": "assets/HealthyBanner-5e1c7e74.js",
+    "file": "assets/HealthyBanner-a0256061.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/application.js"
@@ -132,64 +132,64 @@
     "src": "resources/js/App/Healthy/HealthyBanner.vue"
   },
   "resources/js/App/Healthy/HealthyInfo.vue": {
-    "file": "assets/HealthyInfo-eeed0661.js",
+    "file": "assets/HealthyInfo-8276b086.js",
     "imports": [
       "resources/js/application.js",
-      "_ModalCallback-e0cde050.js",
+      "_ModalCallback-a4a7b7f0.js",
       "resources/js/App/Video/Video.vue",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue",
-      "_SectionTitle-64c506b7.js"
+      "_SectionTitle-a42f8afb.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Healthy/HealthyInfo.vue"
   },
   "resources/js/App/Pages/Static/accept.vue": {
-    "file": "assets/accept-55e88235.js",
+    "file": "assets/accept-1fae9a32.js",
     "imports": [
-      "_MasterLayout-89c17301.js",
+      "_MasterLayout-04eebfd7.js",
       "resources/js/application.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_Button-f66b9266.js"
+      "_Button-f5d41207.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Pages/Static/accept.vue"
   },
   "resources/js/App/Pages/Static/oferta.vue": {
-    "file": "assets/oferta-52fe5d54.js",
+    "file": "assets/oferta-36f4513e.js",
     "imports": [
-      "_MasterLayout-89c17301.js",
+      "_MasterLayout-04eebfd7.js",
       "resources/js/application.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_Button-f66b9266.js"
+      "_Button-f5d41207.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Pages/Static/oferta.vue"
   },
   "resources/js/App/Pages/Static/politika-konfidencialnosti.vue": {
-    "file": "assets/politika-konfidencialnosti-9eb5cae3.js",
+    "file": "assets/politika-konfidencialnosti-40cef3dd.js",
     "imports": [
-      "_MasterLayout-89c17301.js",
+      "_MasterLayout-04eebfd7.js",
       "resources/js/application.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_Button-f66b9266.js"
+      "_Button-f5d41207.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Pages/Static/politika-konfidencialnosti.vue"
   },
   "resources/js/App/Pages/Static/rekvizity.vue": {
-    "file": "assets/rekvizity-048c9ef0.js",
+    "file": "assets/rekvizity-2c8e3d98.js",
     "imports": [
-      "_MasterLayout-89c17301.js",
+      "_MasterLayout-04eebfd7.js",
       "resources/js/application.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_Button-f66b9266.js"
+      "_Button-f5d41207.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Pages/Static/rekvizity.vue"
   },
   "resources/js/App/Prices/PriceTable.vue": {
-    "file": "assets/PriceTable-08a99814.js",
+    "file": "assets/PriceTable-227d4001.js",
     "imports": [
       "resources/js/application.js"
     ],
@@ -197,9 +197,9 @@
     "src": "resources/js/App/Prices/PriceTable.vue"
   },
   "resources/js/App/Prices/Prices.vue": {
-    "file": "assets/Prices-6f84a04e.js",
+    "file": "assets/Prices-b24e7592.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/App/Prices/PriceTable.vue",
       "resources/js/application.js"
     ],
@@ -207,7 +207,7 @@
     "src": "resources/js/App/Prices/Prices.vue"
   },
   "resources/js/App/Products/ProductCard.vue": {
-    "file": "assets/ProductCard-3b7ceccb.js",
+    "file": "assets/ProductCard-5caf6197.js",
     "imports": [
       "resources/js/application.js"
     ],
@@ -215,9 +215,9 @@
     "src": "resources/js/App/Products/ProductCard.vue"
   },
   "resources/js/App/Products/Products.vue": {
-    "file": "assets/Products-37426ca1.js",
+    "file": "assets/Products-08f90455.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/App/Products/ProductCard.vue",
       "resources/js/application.js"
     ],
@@ -225,12 +225,12 @@
     "src": "resources/js/App/Products/Products.vue"
   },
   "resources/js/App/Questions/HaveQuestion.vue": {
-    "file": "assets/HaveQuestion-ae301796.js",
+    "file": "assets/HaveQuestion-49c07230.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
-      "_ModalCallback-e0cde050.js",
+      "_SectionTitle-a42f8afb.js",
+      "_ModalCallback-a4a7b7f0.js",
       "resources/js/application.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue"
     ],
     "isDynamicEntry": true,
@@ -244,7 +244,7 @@
     "css": [
       "assets/QuestionAccordion-31141658.css"
     ],
-    "file": "assets/QuestionAccordion-44bd2a1c.js",
+    "file": "assets/QuestionAccordion-d7119487.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/application.js"
@@ -253,24 +253,24 @@
     "src": "resources/js/App/Questions/QuestionAccordion.vue"
   },
   "resources/js/App/Questions/Questions.vue": {
-    "file": "assets/Questions-0f3b9b32.js",
+    "file": "assets/Questions-d0a09c2e.js",
     "imports": [
       "resources/js/App/Questions/QuestionAccordion.vue",
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/App/Questions/HaveQuestion.vue",
       "resources/js/application.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_ModalCallback-e0cde050.js",
-      "_Button-f66b9266.js",
+      "_ModalCallback-a4a7b7f0.js",
+      "_Button-f5d41207.js",
       "resources/js/App/Waiting/WaitingForm.vue"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Questions/Questions.vue"
   },
   "resources/js/App/Reviews/Reviews.vue": {
-    "file": "assets/Reviews-88fcb280.js",
+    "file": "assets/Reviews-4ef005b8.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/App/Reviews/ReviewsCard.vue",
       "resources/js/application.js"
     ],
@@ -278,7 +278,7 @@
     "src": "resources/js/App/Reviews/Reviews.vue"
   },
   "resources/js/App/Reviews/ReviewsCard.vue": {
-    "file": "assets/ReviewsCard-20dd3c21.js",
+    "file": "assets/ReviewsCard-ba779507.js",
     "imports": [
       "resources/js/application.js"
     ],
@@ -286,25 +286,25 @@
     "src": "resources/js/App/Reviews/ReviewsCard.vue"
   },
   "resources/js/App/Start/Start.vue": {
-    "file": "assets/Start-88612a90.js",
+    "file": "assets/Start-8af284b7.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/application.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Start/Start.vue"
   },
   "resources/js/App/Video/Video.vue": {
-    "file": "assets/Video-49ecb0ac.js",
+    "file": "assets/Video-a0c97e52.js",
     "imports": [
-      "_SectionTitle-64c506b7.js",
+      "_SectionTitle-a42f8afb.js",
       "resources/js/application.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Video/Video.vue"
   },
   "resources/js/App/Waiting/Contacts.vue": {
-    "file": "assets/Contacts-442b3979.js",
+    "file": "assets/Contacts-a705c773.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/application.js"
@@ -313,33 +313,33 @@
     "src": "resources/js/App/Waiting/Contacts.vue"
   },
   "resources/js/App/Waiting/Waiting.vue": {
-    "file": "assets/Waiting-a77d27a5.js",
+    "file": "assets/Waiting-3f814b26.js",
     "imports": [
       "resources/js/App/Waiting/WaitingForm.vue",
       "resources/js/App/Waiting/Contacts.vue",
       "resources/js/application.js",
-      "_Button-f66b9266.js",
+      "_Button-f5d41207.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Waiting/Waiting.vue"
   },
   "resources/js/App/Waiting/WaitingForm.vue": {
-    "file": "assets/WaitingForm-8ed25fc9.js",
+    "file": "assets/WaitingForm-ac746edd.js",
     "imports": [
       "resources/js/application.js",
-      "_Button-f66b9266.js"
+      "_Button-f5d41207.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/App/Waiting/WaitingForm.vue"
   },
   "resources/js/application.css": {
-    "file": "assets/application-c60abc91.css",
+    "file": "assets/application-2773d51f.css",
     "src": "resources/js/application.css"
   },
   "resources/js/application.js": {
     "css": [
-      "assets/application-c60abc91.css"
+      "assets/application-2773d51f.css"
     ],
     "dynamicImports": [
       "resources/js/App/Actions/Actions.vue",
@@ -368,7 +368,7 @@
       "resources/js/App/Waiting/Waiting.vue",
       "resources/js/App/Waiting/WaitingForm.vue"
     ],
-    "file": "assets/application-4df16da0.js",
+    "file": "assets/application-dc87a168.js",
     "isEntry": true,
     "src": "resources/js/application.js"
   }

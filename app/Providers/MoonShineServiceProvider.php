@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\MoonShine\Resources\ProductResource;
+use App\MoonShine\Resources\ReviewsResource;
 use Illuminate\Support\ServiceProvider;
 use MoonShine\MoonShine;
 use MoonShine\Menu\MenuGroup;
@@ -24,6 +25,8 @@ class MoonShineServiceProvider extends ServiceProvider
                     ->icon('bookmark'),
             ])->translatable(),
             MenuItem::make('Товары', new ProductResource())
+                ->icon('heroicons.cog-6-tooth'),
+            MenuItem::make('Отзывы', new ReviewsResource())
                 ->icon('heroicons.cog-6-tooth'),
         ]);
     }
