@@ -1,9 +1,10 @@
 <script setup>
-import {reactive, ref} from "vue";
+import {defineEmits, reactive, ref} from "vue";
 import Input from "@/Components/Input.vue";
 import Button from "@/Components/Button.vue";
 import Textarea from "@/Components/Textarea.vue";
-import { Inertia } from '@inertiajs/inertia'
+import axios from "axios";
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 
 defineProps({
 	showLine:{
@@ -21,7 +22,23 @@ const data = ref({
 });
 const submitForm = () => {
 	if (isChecked.value) {
-		Inertia.post('/api/send', data.value);
+		axios.post('/api/send', data.value)
+				.then((response) => {
+					Swal.fire({
+						title: "Успех!",
+						text: "Сообщение было успешно отправлено.",
+						icon: "success",
+						button: "ОК",
+					})
+				})
+				.catch((error) => {
+					Swal.fire({
+						title: "Ошибка!",
+						text: "Что-то пошло не так при отправке сообщения.",
+						icon: "error",
+						button: "ОК",
+					});
+				});
 	}
 };
 </script>

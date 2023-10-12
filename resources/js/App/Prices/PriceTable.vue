@@ -20,7 +20,7 @@ const props = defineProps({
 		</tr>
 		</thead>
 		<tbody>
-		<tr v-for="product in props.products" :key="product.id" v-if="product.availability" class="hover:bg-gray-100">
+		<tr v-for="product in props.products" :key="product.id"  class="hover:bg-gray-100">
 			<td class="border-none w-[90%] px-4 py-2">{{ product.name }}</td>
 			<td class="border-none w-[90%] px-4 py-2">{{ product.price }}</td>
 		</tr>

@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as r,b as t}from"./application-aa3108d8.js";const o={},c={src:"https://grzybyzdrowia.com/img/муха.png",alt:"banner",class:"mb-[50px]"};function n(s,a){return r(),t("img",c)}const i=e(o,[["render",n]]);export{i as default};
