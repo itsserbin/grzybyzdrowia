@@ -28,8 +28,8 @@ class ProductResource extends Resource
                 ->removable(),
             Select::make('Наличие', 'availability')
                 ->options([
-                    'true' => 'В наличии',
-                    'false' => 'НЕТ в наличии'
+                    1 => 'В наличии',
+                    0 => 'НЕТ в наличии'
                 ])
                 ->showOnForm()
                 ->hideOnIndex(),
@@ -40,7 +40,12 @@ class ProductResource extends Resource
 
 	public function rules(Model $item): array
 	{
-	    return [];
+        return [
+            'name' => 'required|string',
+            'availability' => 'required|boolean',
+            'price' => 'required|integer',
+            'weight' => 'required|integer',
+        ];
     }
 
     public function search(): array
