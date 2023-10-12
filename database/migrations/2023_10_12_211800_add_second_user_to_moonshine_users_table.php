@@ -17,8 +17,8 @@ return new class extends Migration
     {
         DB::table('moonshine_users')->insert([
             'moonshine_user_role_id' => 1,
-            'email' => 'admin@gmail.com',
-            'password' => bcrypt('fXzQRabcdfa12'),
+            'email' => 'admin2@gmail.com',
+            'password' => bcrypt('second_user'),
             'name' => 'Name',
             'avatar' => null,
             'remember_token' => Str::random(10),
