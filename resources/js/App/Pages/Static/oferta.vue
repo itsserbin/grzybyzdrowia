@@ -3,7 +3,7 @@ import MasterLayout from "@/Layouts/MasterLayout.vue";
 </script>
 <template>
 	<MasterLayout>
-		<h1 class="text-2xl font-semibold">Публичная
+		<h1 class="text-2xl max-md:mt-[90px] font-semibold">Публичная
 			оферта</h1>
 		<h3 class="text-xl font-bold">1. Общие положения</h3>
 

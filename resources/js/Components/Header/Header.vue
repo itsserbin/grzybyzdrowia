@@ -57,7 +57,7 @@ const isMenuOpen = ref(false);
 					lg:items-center mt-0 lg:static max-lg:py-12 max-lg:px-8" >
 				<li v-for="item in navItems"><a :href="item.link" class="text-[#333333] hover:border-b-[1px] hover:border-gray-400 text-xl pl-4 lg:pl-0">{{ item.title }}</a></li>
 			</ul>
-			<a href="#waiting"><Button class="w-[10rem]">Контакт</Button></a>
+			<a href="#waiting"><Button class="w-[10rem]">Контакты</Button></a>
 		</div>
 	</header>
 </template>

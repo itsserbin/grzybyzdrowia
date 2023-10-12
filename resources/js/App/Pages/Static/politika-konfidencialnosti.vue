@@ -4,7 +4,7 @@ import MasterLayout from "@/Layouts/MasterLayout.vue";
 
 <template>
 	<MasterLayout>
-			<h1 class="text-2xl font-semibold">
+			<h1 class="text-2xl max-md:mt-[90px] font-semibold">
 				Политика
 				конфиденциальности </h1>
 			<h2 class="text-xl font-bold">в отношении

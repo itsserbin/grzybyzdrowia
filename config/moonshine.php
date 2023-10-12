@@ -8,12 +8,12 @@ return [
     'namespace' => 'App\MoonShine',
     'disk' => env('MOONSHINE_DISK', 'public'),
 
-    'title' => env('MOONSHINE_TITLE', 'MoonShine'),
-    'logo' => env('MOONSHINE_LOGO'),
-    'logo_small' => env('MOONSHINE_LOGO_SMALL'),
+    'title' => env('MOONSHINE_TITLE', 'GRZYBY'),
+    'logo' => env('MOONSHINE_LOGO','/storage/logo.png'),
+    'logo_small' => env('MOONSHINE_LOGO_SMALL','/storage/logo.png'),
 
     'route' => [
-        'prefix' => env('MOONSHINE_ROUTE_PREFIX', 'moonshine'),
+        'prefix' => env('MOONSHINE_ROUTE_PREFIX', 'admin'),
         'index_route' => env('MOONSHINE_INDEX_ROUTE', 'moonshine.index'),
         'middleware' => ['moonshine'],
         'custom_page_slug' => 'custom_page',
